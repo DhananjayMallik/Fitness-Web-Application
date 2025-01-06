@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: aquamarine;
+    border-bottom: 5px solid black;
+} */
+header{
+position: sticky;
+top: 0;
+background: white;
+height: 66px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+header img{
+    margin-top: 12px;
+    width: 70px;
+    height: 50px;
+}
+.listitem{
+    display: flex;
+     justify-content: space-evenly;
+     align-items: flex-start;
+}
+.listitem li{
+    margin-top: 30px;
+    font-size: 20px;
+    list-style-type: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.listitem li a{
+    text-decoration: none;
+}
+.TrialButton{
+   margin-top: 34px;
+   height: 35px;
+   width: 120px;
+   background-color: orange;
+   border-radius: 12px;
+   font-size: 18px;
+   font-weight: lighter;
+   cursor: pointer;
+}
+.TrialButton:hover{
+    background-color: cornflowerblue;
+}
+.hero-section{
+    max-width:8vh;
+}
+.hero-section img{
+    width: 1600px;
+}
+.hero-section p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#about{
+    margin-top: 65px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    padding-top: 70px;
+    border-bottom: 2px solid black;
+    background-color: yellow;
+}
+#about p{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 140px;
+}
+.services img{
+    height: 300px;
+}
+.services .img1{
+    padding-left: 20px;
+}
+.img2{
+    padding-left: 20px;
+}
+.img3{
+    padding-left: 30px;
+}
+.img4{
+    padding-left: 30px;
+}
+.img5{
+    padding-left: 30px;
+}
+.img6{
+    padding-left: 30px;
+}
+.heading{
+    text-align: center;
+}
+.paragraph{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.imageButton{
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 15px;
+    background-color: darksalmon;
+    border-radius: 12px;
+}
+.imageButton:hover{
+    background-color: yellow;
+}
+form label, form input, form textarea, form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  form button {
+    background: #282c34;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #4CAF50;
+  }
+#contact{
+    border: 2px solid black;
+    margin-left: 250px;
+    margin-right: 300px;
+    padding-left: 280px;
+    margin-top: 50px;
+    background-color: gray;
+    
+}
+#contact button{
+    margin-top: 20px;
+}
+#contact h1{
+    padding-top: 30px;
+}
+.trialSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+}
+.trialSection .Trials{
+    padding-top: 20px;
+}
+.Trials{
+    padding-left: 60px;
+}
+.Trials p{
+    padding-top: 25px;
+    font-size: 30px;
+}
+.trialSection button{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px;
+    font-size: 20px;
+    background-color: black;
+    color: yellow;
+}
+.trialSection button:hover{
+    background-color: coral;
+}
